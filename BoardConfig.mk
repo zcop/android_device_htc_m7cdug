@@ -50,7 +50,6 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 396316672
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/htc/m7cdug
 TARGET_KERNEL_CONFIG := m7cdug_defconfig
 
 # cat /proc/emmc:
