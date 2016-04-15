@@ -34,8 +34,9 @@
 TARGET_OTA_ASSERT_DEVICE := m7cdug
 
 # Audio
-AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
-AUDIO_FEATURE_HTC_DUAL_SIM := true
+# These two flags don't have any effect in case of M7, because being based on MSM8960. According to bgcngm @ XDA.
+#AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
+#AUDIO_FEATURE_HTC_DUAL_SIM := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/m7cdug/bluetooth
